@@ -32,6 +32,18 @@ git remote : to see what remote we have on our remote repo
 
 git remore -v : to display origin fetch and push URLS for that particular remote
 
+BRANCHING
+=========
+INFO: It's a remporary working copy for meanline development to the bug fixes.
+------------------------------------------------------------------------------
+git branch : to show all branches with in your repo.
+
+git branch -r :-r will display remore branches.
+
+git tag : Mainly used for taging your code base For example versions.
+
+
+
 git commit -m <message> : to commit changes locally to the repository.
 
 
