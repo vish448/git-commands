@@ -13,9 +13,22 @@ git status : to see the status of your file
 
 git log : to see logs of your work on repo
 
+STSTICAL DATA
+=============
+
 git log --oneline : organize logs in one line
 
 git log --oneline | wc -l : total number of your commit to the repo
+
+git log --graph : more stastical view of your commits. you can see if ther are different branches and merges has happend.
+
+git shortlog : list of the authors and commit messges with number of commits made
+
+git shortlog -sne <sne summury,no_of_commits,email_address> : more stastical views of the commit made by an individual author.
+
+git show HEAD : to see what was the last commit made to the repo.
+
+git remote : to see what remote we have on our remote repo
 
 git commit -m <message> : to commit changes locally to the repository.
 
