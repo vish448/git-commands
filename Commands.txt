@@ -1,3 +1,5 @@
+USEFUL COMMANDS LIST
+=============
 
 git init : To initialize the git repository.
 
@@ -7,4 +9,15 @@ git add <file_name> : To add new or existing files to git stging area.
 
 git add -u : to update stagging area with new modifications.
 
+git status : to see the status of your file
+
+git log : to see logs of your work on repo
+
+git log --oneline : organize logs in one line
+
+git log --oneline | wc -l : total number of your commit to the repo
+
 git commit -m <message> : to commit changes locally to the repository.
+
+
+
