@@ -30,6 +30,8 @@ git show HEAD : to see what was the last commit made to the repo.
 
 git remote : to see what remote we have on our remote repo
 
+git remore -v : to display origin fetch and push URLS for that particular remote
+
 git commit -m <message> : to commit changes locally to the repository.
 
 
