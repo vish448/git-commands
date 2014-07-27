@@ -13,6 +13,8 @@ git status : to see the status of your file
 
 git log : to see logs of your work on repo
 
+git commit -am : <am- any modified> shorthand for add and commit. If you hit this commands you don't need to hit GIT ADD commands. 
+
 STSTICAL DATA
 =============
 
@@ -56,7 +58,15 @@ or ELSE you can hit commands below.
 
 git branch --set-upstream master origin/master : Which will tell the git to fetch origin master from remote repo. After that if you hit GIT PULL it will pull the branch to your local git repo.
 
+git push : to push all changes to your remote repo.
 
+git push with SSH:
+-----------------
+1. git remote rm origin
+2. git remote add origin sshKEY : <ssh: git@github.com/vish448/reponame.git>
+3. git push
+
+Once you set this ssh script GIT will not ask for username and password whenever you do git push.
 
 git commit -m <message> : to commit changes locally to the repository.
 
