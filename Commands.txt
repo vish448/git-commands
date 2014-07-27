@@ -42,7 +42,18 @@ git branch : to show all branches with in your repo.
 
 git branch -r :-r will display remore branches.
 
-git tag : Mainly used for taging your code base For example versions.
+git tag "tag name" : Mainly used for taging your code base For example versions. once you hit this commands it will attch with your last commit. Means whenever you wnat to point tag v1.0 it will go to that last commit. 
+
+git tag -a "tag name" : you can submit tag with your message with this git command.
+ 
+git tag -s "tag name" : you can provide your signing with your tag. Follow git prompt for sign.
+
+git tag -v "tag name" : -v for verification 
+
+git push --tags : to push tags to your remote repository
+
+INFO: sign tag is very important in your public project repository. So only verify users can commit to your project. 
+ 
 
 git remote add origin <repo name> : To add remote repo to your local repository.You have to hit git getch after this command.
 
