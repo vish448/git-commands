@@ -42,6 +42,20 @@ git branch -r :-r will display remore branches.
 
 git tag : Mainly used for taging your code base For example versions.
 
+git remote add origin <repo name> : To add remote repo to your local repository.You have to hit git getch after this command.
+
+git merge origin/master : to merge two branches together.
+
+git branch -r : you can see the remote branch you just merged.
+
+git pull : To pull remote branch to your machine. You have to tell git which branch to pull from remote.
+
+git pull origin master : we are telling git that pull origin/master from remote repository.
+
+or ELSE you can hit commands below.
+
+git branch --set-upstream master origin/master : Which will tell the git to fetch origin master from remote repo. After that if you hit GIT PULL it will pull the branch to your local git repo.
+
 
 
 git commit -m <message> : to commit changes locally to the repository.
